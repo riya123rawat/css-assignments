@@ -1,9 +1,27 @@
-/* Style the card using
-    position,
-    padding,
-    margin,
-    line-height,
-    border
- */
+.item{
+    width: 200px;
+    height: 50px;
+   padding: 30px 30px;
+ border-style:solid;
+   text-align: center;
+   font-size: 30px;
+   margin-left: 0px;
+   position:absolute;
+   margin-top: -13.8%;
 
+ }
+   
+ h2 {
+    text-align: left;
+   }
 
+ .container{
+   
+   min-height: 300px;
+    width: 800px;
+    font-size: 30px;
+    border-style: solid;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 30%;
+}

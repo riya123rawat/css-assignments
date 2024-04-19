@@ -1,11 +1,54 @@
-/* Style the menus using
-    flex,
-    padding,
-    background-color,
-    list-style,
-    text-decoration,
-    justify-content,
-    align-items
- */
 
 
+
+nav>ul{
+	width: 800px;
+	display:flex;
+	flex-direction: row;
+	list-style: none;
+	gap: 30px;
+	justify-content: center;
+	float: left;
+	background-color: gray;
+    text-align: center;
+    margin-top: 0%; 
+    margin: 0 10px 0 500px;
+}
+
+
+
+.site-brand {
+	float: left;
+	margin-left:500px;
+    position: fixed;
+    color: blueviolet;	
+}
+
+
+
+.promotion {
+	float: left;
+	margin-left:10px;
+    background-color: red;
+
+}
+ .site-header2 {
+    display: flex;
+    flex-direction: row;
+   gap: 50px;
+   background-color:grey;
+    margin-top:1%;
+    height: 40px;
+    text-align: center;
+
+    
+
+    
+}
+.site-header1{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+   
+
+}
